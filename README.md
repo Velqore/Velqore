@@ -19,7 +19,7 @@
 
 <div align="center">
   
-  <img src="https://media.giphy.com/media/hq3kOk1bRybR5w7A6m/giphy.gif" width="350" alt="Matrix Hacker Animation"/>
+  <img src="https://media.tenor.com/G4GdvEotPhoAAAAi/web-hack-hacker.gif" width="350" alt="Matrix Hacker Animation"/>
 
 </div>
 
