@@ -157,17 +157,17 @@ drwxr-x--- velqore  velqore  Hackthcamera/
 ## 📊 INTELLIGENCE REPORT
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Velqore&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" height="180"/>
+  <img src="./assets/stats.svg" alt="GitHub Stats" height="180"/>
   &nbsp;
   <img src="./assets/top-langs.svg" alt="Top Languages" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Velqore&theme=chartreuse-dark&background=0d1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=c9d1d9&border=00FF41" alt="GitHub Streak"/>
+  <img src="./assets/streak.svg" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Velqore&bg_color=0d1117&color=00FF41&line=00FF41&point=ffffff&area=true&area_color=00FF41&hide_border=false&border_color=00FF41&title_color=00FF41" alt="Contribution Activity Graph"/>
+  <img src="./assets/activity.svg" alt="Contribution Activity Graph"/>
 </p>
 
 ---
