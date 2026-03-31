@@ -159,7 +159,7 @@ drwxr-x--- velqore  velqore  Hackthcamera/
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Velqore&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" height="180"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Velqore&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&langs_count=8" alt="Top Languages" height="180"/>
+  <img src="./assets/top-langs.svg" alt="Top Languages" height="180"/>
 </p>
 
 <p align="center">
@@ -175,7 +175,7 @@ drwxr-x--- velqore  velqore  Hackthcamera/
 ## 🏆 OPERATOR TROPHIES
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Velqore&theme=matrix&no-frame=false&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies"/>
+<img src="./assets/trophies.svg" alt="GitHub Trophies"/>
 </p>
 
 ---
