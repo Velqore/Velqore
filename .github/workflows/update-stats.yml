@@ -16,29 +16,40 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch top languages SVG
-        run: |
-          mkdir -p assets
-          HTTP_STATUS=$(curl -s -o assets/top-langs.svg -w "%{http_code}" --max-time 30 \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=Velqore&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&langs_count=8&cache_seconds=86400")
-          if [ "$HTTP_STATUS" != "200" ] || ! grep -q '<svg' assets/top-langs.svg; then
-            echo "Warning: top-langs.svg fetch failed (HTTP $HTTP_STATUS). Keeping existing file."
-            git checkout -- assets/top-langs.svg 2>/dev/null || true
-          fi
+      - name: Setup assets directory
+        run: mkdir -p assets
 
-      - name: Fetch trophies SVG
+      - name: Fetch all stats SVGs
         run: |
-          HTTP_STATUS=$(curl -s -o assets/trophies.svg -w "%{http_code}" --max-time 30 \
-            "https://github-profile-trophy.vercel.app/?username=Velqore&theme=matrix&no-frame=false&margin-w=6&column=6")
-          if [ "$HTTP_STATUS" != "200" ] || ! grep -q '<svg' assets/trophies.svg; then
-            echo "Warning: trophies.svg fetch failed (HTTP $HTTP_STATUS). Keeping existing file."
-            git checkout -- assets/trophies.svg 2>/dev/null || true
-          fi
+          fetch_svg() {
+            local file="$1"
+            local url="$2"
+            HTTP_STATUS=$(curl -s -o "$file" -w "%{http_code}" --max-time 30 "$url")
+            if [ "$HTTP_STATUS" != "200" ] || ! grep -q '<svg' "$file" || grep -qi 'quota\|rate limit\|something went wrong\|no data' "$file"; then
+              echo "Warning: $file fetch failed or returned error (HTTP $HTTP_STATUS). Keeping existing file."
+              git checkout -- "$file" 2>/dev/null || true
+            fi
+          }
+
+          fetch_svg assets/stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=Velqore&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github"
+
+          fetch_svg assets/top-langs.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=Velqore&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&langs_count=8"
+
+          fetch_svg assets/streak.svg \
+            "https://streak-stats.demolab.com/?user=Velqore&theme=chartreuse-dark&background=0d1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=c9d1d9&border=00FF41"
+
+          fetch_svg assets/activity.svg \
+            "https://github-readme-activity-graph.vercel.app/graph?username=Velqore&bg_color=0d1117&color=00FF41&line=00FF41&point=ffffff&area=true&area_color=00FF41&hide_border=false&border_color=00FF41&title_color=00FF41"
+
+          fetch_svg assets/trophies.svg \
+            "https://github-profile-trophy.vercel.app/?username=Velqore&theme=matrix&no-frame=false&margin-w=6&column=6"
 
       - name: Commit and push changes
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add assets/top-langs.svg assets/trophies.svg
+          git add assets/stats.svg assets/top-langs.svg assets/streak.svg assets/activity.svg assets/trophies.svg
           git diff --staged --quiet || git commit -m "chore: update GitHub stats SVGs [skip ci]"
           git push
