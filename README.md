@@ -157,15 +157,12 @@ drwxr-x--- velqore  velqore  Hackthcamera/
 ## 📊 INTELLIGENCE REPORT
 
 <p align="center">
-  <img src="./assets/stats.svg" alt="GitHub Stats" height="180"/>
-  &nbsp;
-  <img src="./assets/top-langs.svg" alt="Top Languages" height="180"/>
+  <img src="./assets/stats.svg" alt="GitHub Stats"height="200"/>
+  <img src="./assets/top-langs.svg" alt="Top Languages" height="200"/>
 </p>
-
 <p align="center">
   <img src="./assets/streak.svg" alt="GitHub Streak"/>
 </p>
-
 <p align="center">
   <img src="./assets/activity.svg" alt="Contribution Activity Graph"/>
 </p>
