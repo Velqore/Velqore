@@ -186,9 +186,9 @@ drwxr-x--- velqore  velqore  Hackthcamera/
 #!/usr/bin/env bash
 # ── ESTABLISH SECURE CHANNEL ─────────────────────────────────
 
-echo "[DISCORD]     Velqore#1337"
-echo "[EMAIL]       root@velqore.io"
-echo "[HACKTHEBOX]  https://app.hackthebox.com/profile/Velqore"
+echo "[DISCORD]     velqore"
+echo "[EMAIL]       ayushtyagi2213@gmail.com"
+echo "[HACKTHEBOX]  https://profile.hackthebox.com/profile/019d433f-1d30-7003-ae5a-bf12c2fc33c7"
 echo "[GITHUB]      https://github.com/Velqore"
 
 # All comms are encrypted. No plaintext. No traces.
@@ -198,13 +198,13 @@ echo "[GITHUB]      https://github.com/Velqore"
   <a href="https://github.com/Velqore">
     <img src="https://img.shields.io/badge/GitHub-Velqore-00FF41?style=for-the-badge&logo=github&logoColor=black"/>
   </a>
-  <a href="mailto:root@velqore.io">
+  <a href="mailto:ayushtyagi2213@gmail.com">
     <img src="https://img.shields.io/badge/Email-root%40velqore.io-00FF41?style=for-the-badge&logo=protonmail&logoColor=black"/>
   </a>
-  <a href="https://app.hackthebox.com/profile/Velqore">
+  <a href="https://profile.hackthebox.com/profile/019d433f-1d30-7003-ae5a-bf12c2fc33c7">
     <img src="https://img.shields.io/badge/HackTheBox-Velqore-00FF41?style=for-the-badge&logo=hackthebox&logoColor=black"/>
   </a>
-  <a href="https://discord.com/users/Velqore">
+  <a href="https://discord.com/users/velqore">
     <img src="https://img.shields.io/badge/Discord-Velqore%231337-00FF41?style=for-the-badge&logo=discord&logoColor=black"/>
   </a>
 </p>
