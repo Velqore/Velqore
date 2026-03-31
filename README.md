@@ -137,6 +137,7 @@ drwxr-x--- velqore  velqore  core/
 drwxr-x--- velqore  velqore  PhantomTrace/
 drwxr-x--- velqore  velqore  numberinfo/
 drwxr-x--- velqore  velqore  MyForever/
+drwxr-x--- velqore  velqore  Hackthcamera/
 ```
 
 <p align="center">
@@ -144,10 +145,10 @@ drwxr-x--- velqore  velqore  MyForever/
 | Project | Description | Stack | Status |
 |:-------:|:-----------:|:-----:|:------:|
 | [**Velqore/Velqore**](https://github.com/Velqore/Velqore) | Core operator profile — cyber solutions & identity | Markdown · CI/CD | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
-| [**PhantomTrace**](https://github.com/Velqore/phantomtrace) | Stealth network reconnaissance & port-scanning engine | Python · Scapy | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
-| [**MyForever**](https://github.com/Velqore/MyForever) | Zero-downtime containerised deployment pipeline | Docker · K8s · Go | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
-| [**NumberInfo**](https://github.com/Velqore/numberinfo) | Lightweight command-and-control framework for red teams | Rust · TLS · gRPC | ![WIP](https://img.shields.io/badge/WIP-FFB800?style=flat-square) |
-| [**Hackthcamera**](https://github.com/Velqore/Hackthcamera) | Encrypted secrets manager with hardware-key support | Go · AES-256 | ![WIP](https://img.shields.io/badge/WIP-FFB800?style=flat-square) |
+| [**PhantomTrace**](https://github.com/Velqore/phantomtrace) | Modular anti-forensics toolkit: secure deletion, timestamp manipulation & advanced privacy encryption | Python · AES-256 · GPL-3.0 | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
+| [**MyForever**](https://github.com/Velqore/MyForever) | Romantic personalised love website with animations, photo gallery, typewriter letter & music player | Node.js · Express · HTML/CSS | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
+| [**NumberInfo**](https://github.com/Velqore/numberinfo) | OSINT information-gathering framework for scanning & identifying phone numbers worldwide | Go · REST API · Docker | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
+| [**Hackthcamera**](https://github.com/Velqore/Hackthcamera) | Social-engineering phishing tool that captures a target's front camera via fake browser permission pages | PHP · Bash · HTML | ![WIP](https://img.shields.io/badge/WIP-FFB800?style=flat-square) |
 
 </p>
 
@@ -156,9 +157,9 @@ drwxr-x--- velqore  velqore  MyForever/
 ## 📊 INTELLIGENCE REPORT
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Velqore&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Velqore&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" height="180"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Velqore&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false" alt="Top Languages" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Velqore&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&langs_count=8" alt="Top Languages" height="180"/>
 </p>
 
 <p align="center">
@@ -174,7 +175,7 @@ drwxr-x--- velqore  velqore  MyForever/
 ## 🏆 OPERATOR TROPHIES
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Velqore&theme=matrix&no-frame=false&no-bg=true&margin-w=6&column=7"alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Velqore&theme=matrix&no-frame=false&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies"/>
 </p>
 
 ---
