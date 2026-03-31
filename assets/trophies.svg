@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="110">
+  <rect width="660" height="110" rx="6" ry="6" fill="#0d1117" stroke="#00FF41" stroke-width="1"/>
+  <text x="330" y="38" text-anchor="middle" fill="#00FF41" font-family="monospace,Consolas,monospace" font-size="14" font-weight="bold">GitHub Trophies</text>
+  <!-- Trophy icons row -->
+  <text x="55"  y="80" text-anchor="middle" font-size="28">🏆</text>
+  <text x="165" y="80" text-anchor="middle" font-size="28">🏆</text>
+  <text x="275" y="80" text-anchor="middle" font-size="28">🏆</text>
+  <text x="385" y="80" text-anchor="middle" font-size="28">🏆</text>
+  <text x="495" y="80" text-anchor="middle" font-size="28">🏆</text>
+  <text x="605" y="80" text-anchor="middle" font-size="28">🏆</text>
+  <text x="330" y="103" text-anchor="middle" fill="#00FF41" font-family="monospace,Consolas,monospace" font-size="9" opacity="0.6">[ refreshing via GitHub Actions ]</text>
+</svg>

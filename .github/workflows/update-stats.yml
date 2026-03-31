@@ -1,0 +1,44 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch top languages SVG
+        run: |
+          mkdir -p assets
+          HTTP_STATUS=$(curl -s -o assets/top-langs.svg -w "%{http_code}" --max-time 30 \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=Velqore&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&border_color=00FF41&hide_border=false&langs_count=8&cache_seconds=86400")
+          if [ "$HTTP_STATUS" != "200" ] || ! grep -q '<svg' assets/top-langs.svg; then
+            echo "Warning: top-langs.svg fetch failed (HTTP $HTTP_STATUS). Keeping existing file."
+            git checkout -- assets/top-langs.svg 2>/dev/null || true
+          fi
+
+      - name: Fetch trophies SVG
+        run: |
+          HTTP_STATUS=$(curl -s -o assets/trophies.svg -w "%{http_code}" --max-time 30 \
+            "https://github-profile-trophy.vercel.app/?username=Velqore&theme=matrix&no-frame=false&margin-w=6&column=6")
+          if [ "$HTTP_STATUS" != "200" ] || ! grep -q '<svg' assets/trophies.svg; then
+            echo "Warning: trophies.svg fetch failed (HTTP $HTTP_STATUS). Keeping existing file."
+            git checkout -- assets/trophies.svg 2>/dev/null || true
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/top-langs.svg assets/trophies.svg
+          git diff --staged --quiet || git commit -m "chore: update GitHub stats SVGs [skip ci]"
+          git push

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="160">
+  <rect width="300" height="160" rx="6" ry="6" fill="#0d1117" stroke="#00FF41" stroke-width="1"/>
+  <text x="150" y="40" text-anchor="middle" fill="#00FF41" font-family="monospace,Consolas,monospace" font-size="14" font-weight="bold">Most Used Languages</text>
+  <rect x="20" y="60" width="120" height="12" rx="3" ry="3" fill="#1a2a1a"/>
+  <rect x="20" y="60" width="80" height="12" rx="3" ry="3" fill="#00FF41" opacity="0.7"/>
+  <text x="150" y="71" text-anchor="middle" fill="#c9d1d9" font-family="monospace,Consolas,monospace" font-size="10">Python</text>
+  <rect x="20" y="82" width="120" height="12" rx="3" ry="3" fill="#1a2a1a"/>
+  <rect x="20" y="82" width="55" height="12" rx="3" ry="3" fill="#00FF41" opacity="0.5"/>
+  <text x="150" y="93" text-anchor="middle" fill="#c9d1d9" font-family="monospace,Consolas,monospace" font-size="10">Go</text>
+  <rect x="20" y="104" width="120" height="12" rx="3" ry="3" fill="#1a2a1a"/>
+  <rect x="20" y="104" width="40" height="12" rx="3" ry="3" fill="#00FF41" opacity="0.3"/>
+  <text x="150" y="115" text-anchor="middle" fill="#c9d1d9" font-family="monospace,Consolas,monospace" font-size="10">Bash</text>
+  <text x="150" y="148" text-anchor="middle" fill="#00FF41" font-family="monospace,Consolas,monospace" font-size="9" opacity="0.6">[ refreshing via GitHub Actions ]</text>
+</svg>
