@@ -134,10 +134,9 @@ $ cat /proc/current_ops
 $ ls -la ~/projects/
 
 drwxr-x--- velqore  velqore  core/
-drwxr-x--- velqore  velqore  phantom-scan/
-drwxr-x--- velqore  velqore  ghost-deploy/
-drwxr-x--- velqore  velqore  nullbyte-c2/
-drwxr-x--- velqore  velqore  cipher-vault/
+drwxr-x--- velqore  velqore  PhantomTrace/
+drwxr-x--- velqore  velqore  numberinfo/
+drwxr-x--- velqore  velqore  MyForever/
 ```
 
 <p align="center">
@@ -145,10 +144,10 @@ drwxr-x--- velqore  velqore  cipher-vault/
 | Project | Description | Stack | Status |
 |:-------:|:-----------:|:-----:|:------:|
 | [**Velqore/Velqore**](https://github.com/Velqore/Velqore) | Core operator profile — cyber solutions & identity | Markdown · CI/CD | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
-| [**phantom-scan**](https://github.com/Velqore/Velqore) | Stealth network reconnaissance & port-scanning engine | Python · Scapy | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
-| [**ghost-deploy**](https://github.com/Velqore/Velqore) | Zero-downtime containerised deployment pipeline | Docker · K8s · Go | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
-| [**nullbyte-c2**](https://github.com/Velqore/Velqore) | Lightweight command-and-control framework for red teams | Rust · TLS · gRPC | ![WIP](https://img.shields.io/badge/WIP-FFB800?style=flat-square) |
-| [**cipher-vault**](https://github.com/Velqore/Velqore) | Encrypted secrets manager with hardware-key support | Go · AES-256 | ![WIP](https://img.shields.io/badge/WIP-FFB800?style=flat-square) |
+| [**PhantomTrace**](https://github.com/Velqore/phantomtrace) | Stealth network reconnaissance & port-scanning engine | Python · Scapy | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
+| [**MyForever**](https://github.com/Velqore/MyForever) | Zero-downtime containerised deployment pipeline | Docker · K8s · Go | ![Active](https://img.shields.io/badge/ACTIVE-00FF41?style=flat-square) |
+| [**NumberInfo**](https://github.com/Velqore/numberinfo) | Lightweight command-and-control framework for red teams | Rust · TLS · gRPC | ![WIP](https://img.shields.io/badge/WIP-FFB800?style=flat-square) |
+| [**Hackthcamera**](https://github.com/Velqore/Hackthcamera) | Encrypted secrets manager with hardware-key support | Go · AES-256 | ![WIP](https://img.shields.io/badge/WIP-FFB800?style=flat-square) |
 
 </p>
 
@@ -175,7 +174,7 @@ drwxr-x--- velqore  velqore  cipher-vault/
 ## 🏆 OPERATOR TROPHIES
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Velqore&theme=matrix&no-frame=false&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Velqore&theme=matrix&no-frame=false&no-bg=true&margin-w=6&column=7"alt="GitHub Trophies"/>
 </p>
 
 ---
