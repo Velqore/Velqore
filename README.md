@@ -8,7 +8,9 @@
 -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00FF41&height=200&section=header&text=VELQORE&fontSize=72&fontColor=00FF41&fontAlignY=38&desc=Elite%20Operator%20%7C%20Root%20Access%20Granted&descAlignY=58&descSize=18&animation=fadeIn&stroke=00FF41&strokeWidth=1" alt="Header Banner"/>
+  <h3 align="center">Currently Learning everything.</h3>
+<a href = "https://github.com/Velqore"><img src = "https://cardivo.vercel.app/api?name=Velqore&description=A%%20NOOB%20CODER%20ALWAYS%20IN%20SEARCH%20OF%20NEW%20THINGS&image=https://i.pinimg.com/736x/cf/0b/ab/cf0babc5666d79420889a28d396b2804.jpg&backgroundColor=%23ecf0f1&github=Velqore&pattern=topography&colorPattern=%23eaeaea"/><a>
+<br><p align='center'><img src="https://komarev.com/ghpvc/?username=Velqore&label=Total%20Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Velqore" />
 </p>
 
 <p align="center">
