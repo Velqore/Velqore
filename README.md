@@ -9,7 +9,7 @@
 
 <p align="center">
   <h3 align="center">Wanna Grow with the World.</h3>
-<a href = "https://github.com/Velqore"><img src = "https://cardivo.vercel.app/api?name=Velqore&description=A%20NOOB%20CODER%20ALWAYS%20IN%20SEARCH%20OF%20NEW%20THINGS&image=https://i.pinimg.com/736x/cf/0b/ab/cf0babc5666d79420889a28d396b2804.jpg&backgroundColor=%23ecf0f1&github=Velqore&pattern=topography&colorPattern=%23eaeaea"/><a>
+<a href = "https://github.com/Velqore"><img src = "https://cardivo.vercel.app/api?name=Velqore&description=A%20NOOB%20CODER%20ALWAYS%20IN%20SEARCH%20OF%20NEW%20THINGS&image=https://i.pinimg.com/736x/55/1e/82/551e826553ed3447efc33fa0df2ac6a6.jpg&backgroundColor=%23ecf0f1&github=Velqore&pattern=topography&colorPattern=%23eaeaea"/><a>
 <br><p align='center'><img src="https://komarev.com/ghpvc/?username=Velqore&label=Total%20Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Velqore" />
 </p>
 
